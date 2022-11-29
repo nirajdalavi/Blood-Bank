@@ -74,6 +74,8 @@ create table if not exists Plasma(
 create table if not exists donates(
     donor_id varchar(10) not null,
     staff_id varchar(10) not null, 
+    don_type char(15) not null,
+    don_occation char(10) not null,
     don_date date not null,
     next_date date not null,
     foreign key(donor_id) references donor(donor_id) on delete cascade,
