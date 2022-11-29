@@ -91,8 +91,8 @@ create table if not exists admits(
 );
 
 create table if not exists tested_by(
-    sample_id varchar(10) not null,
-    staff_id varchar(10) not null primary key,
+    sample_id varchar(10) not null primary key,
+    staff_id varchar(10) not null ,
     result varchar(8) not null,
     foreign key(staff_id) references staff(staff_id)
 );
