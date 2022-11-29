@@ -107,17 +107,18 @@ create table if not exists admits(
     foreign key(patient_id) references patient(patient_id) on delete cascade
 );
 
-create table if not exists tested_by(
-    sample_id varchar(10) not null primary key,
-    staff_id varchar(10) not null ,
-    result varchar(8) not null,
-    foreign key(staff_id) references staff(staff_id)
-);
-
 create table if not exists blood(
     donor_id varchar(10) not null,
     sample_id varchar(10) not null primary key,
     foreign key(donor_id) references donor(donor_id) on delete cascade
+);
+
+create table if not exists tested_by(
+    sample_id varchar(10) not null,
+    staff_id varchar(10) not null ,
+    result varchar(8) not null,
+    foreign key(staff_id) references staff(staff_id) on delete cascade,
+    foreign key(sample_id) references blood(sample_id) on delete cascade
 );
 
 create table if not exists req_rec(
