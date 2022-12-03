@@ -240,16 +240,16 @@ insert into blood (donor_id, sample_id) values ('DON82ABP35', 'SPL3029');
 insert into blood (donor_id, sample_id) values ('DON12BP55', 'SPL3795');
 
 
-insert into tested_by (sample_id, staff_id, result) values ('S782', 'STA633', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S491', 'STA415', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S811', 'STA884', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S799', 'STA304', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S169', 'STA800', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S509', 'STA061', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S846', 'STA336', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S099', 'STA625', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S117', 'STA710', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S900', 'STA762', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S782', 'ST8119', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S491', 'ST8119', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S811', 'ST6028', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S799', 'ST6028', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S169', 'ST7117', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S509', 'ST7117', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S846', 'ST6416', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S099', 'ST6416', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S117', 'ST6147', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S900', 'ST6147', 'POSITIVE');
 
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H458', 'P633', 'roga', 'O+', 'RBC', '328ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H772', 'P310', 'surgery', 'O-', 'Plasma', '514ml');
