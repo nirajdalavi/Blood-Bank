@@ -59,7 +59,7 @@ create table if not exists repository(
     blood_group varchar(3) not null,
     RBC integer not null,
     Platelets integer not null,
-    PLasma integer not null
+    Plasma integer not null
 );
 
 create table if not exists Blood_Components(
@@ -144,11 +144,22 @@ insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) va
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('902021NO', '2019/05/17', 'Uinskoye', 'Deckow Inc');
 
 
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ON0001', 'O-', '4.7', '4.0', '0.4');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ABP002', 'AB+', '4.8', '0.9', '5.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('OP0003', 'O+', '5.6', '8.3', '1.6');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('AP0004', 'A+', '5.9', '7.6', '9.0');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('BN0005', 'B-', '9.1', '8.6', '8.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ABN006', 'AB-', '9.3', '7.2', '3.4');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ON0001', 'O-', '4.7', '4.0', '0.4');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABP002', 'AB+', '4.8', '0.9', '5.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('OP0003', 'O+', '5.6', '8.3', '1.6');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AP0004', 'A+', '5.9', '7.6', '9.0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BN0005', 'B-', '9.1', '8.6', '8.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABN006', 'AB-', '9.3', '7.2', '3.4');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
+
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H458', 'P633', 'roga', 'O+', 'RBC', '328ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H772', 'P310', 'surgery', 'O-', 'Plasma', '514ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H306', 'P070', 'roga', 'AB+', 'Plasma', '658ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'P451', 'accident', 'O-', 'Platelets', '614ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H533', 'P691', 'roga', 'AB-', 'RBC', '995ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'roga', 'AB+', 'WholeBlood', '954ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'roga', 'AB-', 'Platelets', '766ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
