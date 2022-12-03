@@ -197,3 +197,14 @@ insert into tested_by (sample_id, staff_id, result) values ('S846', 'STA336', 'P
 insert into tested_by (sample_id, staff_id, result) values ('S099', 'STA625', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('S117', 'STA710', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('S900', 'STA762', 'POSITIVE');
+
+insert into registration (camp_id, donate_id, reg_date) values ('Orange', 'Vanni', '2022-12-26');
+insert into registration (camp_id, donate_id, reg_date) values ('Turquoise', 'Crissy', '2022-10-25');
+insert into registration (camp_id, donate_id, reg_date) values ('Crimson', 'Kimble', '2022-11-22');
+insert into registration (camp_id, donate_id, reg_date) values ('Maroon', 'Judye', '2022-05-11');
+insert into registration (camp_id, donate_id, reg_date) values ('Teal', 'Natalee', '2022-01-18');
+insert into registration (camp_id, donate_id, reg_date) values ('Khaki', 'Merle', '2022-07-06');
+insert into registration (camp_id, donate_id, reg_date) values ('Turquoise', 'Danell', '2022-05-13');
+insert into registration (camp_id, donate_id, reg_date) values ('Teal', 'Carla', '2022-12-15');
+insert into registration (camp_id, donate_id, reg_date) values ('Yellow', 'Waneta', '2022-09-03');
+insert into registration (camp_id, donate_id, reg_date) values ('Indigo', 'Gibbie', '2022-09-22');
