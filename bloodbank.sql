@@ -206,16 +206,16 @@ insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AN0008', 'P6PL037', '11/7/2022', '3/17/2022');
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ON0001', 'P4PL788', '2/18/2022', '1/22/2022');
 
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP95', '', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', '', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON52ABP55', '', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON42BP75', '', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ON55', '', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12BP55', '', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON82ABP35', '', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON32ABP45', '', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ABP75', '', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72OP75', '', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP95', 'ST2481', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', 'ST2481', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON52ABP55', 'ST7389', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON42BP75', 'ST7389', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ON55', 'ST1424', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12BP55', 'ST1424', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON82ABP35', 'ST8588', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON32ABP45', 'ST8588', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ABP75', 'ST9536', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72OP75', 'ST9536', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
 
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H496', 'PAT1444', 'Anaemia', '2018/06/27');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H981', 'PAT6137', 'Malaria', '2020/03/30');
