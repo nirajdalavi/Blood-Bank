@@ -142,6 +142,28 @@ insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, st
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('45-0743893', 'Daphne Rickword', 'Pipefitter', 'M', 'Female', 'AB+', '2319723173', '85 Buena Vista Alley');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('90-0175079', 'Bonnie Watford', 'Equipment Operator', 'F', 'Female', 'AB+', '1567985206', '68 Spaight Street');
 
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Quintana', '(965) 9775771', '8973 Bartillon Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'Pepita', '(883) 2480785', '4649 Pawling Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Pam', '(379) 6971248', '85 Brickson Park Place');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Coriss', '(982) 7562402', '578 Helena Point');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'Aurore', '(617) 4669968', '80 Hudson Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'Burnard', '(409) 4988937', '02039 Burrows Road');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Waldo', '(180) 3720352', '5 Bellgrove Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Elisabetta', '(821) 7330187', '5 Bonner Alley');
+
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT1444', 'Austine Worthington', 'M', '2022-10-30', 'AB+', '3304101024', '03796 Hudson Junction');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT6137', 'Hadrian Dumbare', 'F', '2022-05-23', 'AB+', '7265871979', '7762 Summit Trail');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT9437', 'Alikee Gerg', 'M', '2022-01-02', 'O-', '2756162197', '555 Sullivan Hill');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5815', 'Gladi Buggs', 'M', '2021-05-03', 'O-', '3307784521', '39217 Amoth Alley');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT2575', 'Andreana Effnert', 'M', '2020-04-13', 'B+', '1402535553', '0 Valley Edge Plaza');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0319', 'Doti Yggo', 'M', '2020-06-16', 'AB-', '6439043521', '3 Dexter Drive');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0479', 'Rutter Fallow', 'F', '2022-08-22', 'B-', '8905745027', '78502 Merry Circle');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT4437', 'Justin Point', 'F', '2020-07-08', 'O-', '7912348106', '28 North Pass');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5112', 'Rafi Blanking', 'F', '2022-05-15', 'AB+', '1127538147', '14264 Hoard Road');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0198', 'Moll Thackray', 'M', '2020-05-10', 'A+', '4007469998', '182 Mockingbird Place');
+
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('142020DE', '2019/12/18', 'Reforma', 'McCullough Inc');
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('222022DE', '2019/02/10', 'Issoire', 'Koch-O''Kon');
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('752021NO', '2021/10/10', 'Sandaogou', 'Friesen Group');
@@ -153,6 +175,16 @@ insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) va
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('512020DE', '2019/02/14', 'Padang', 'Upton Inc');
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('902021NO', '2019/05/17', 'Uinskoye', 'Deckow Inc');
 
+insert into registration (camp_id, donor_id, reg_date) values ('142020DE', 'DON22ABN75', '2022-12-26');
+insert into registration (camp_id, donor_id, reg_date) values ('542021OC', 'DON42BP75', '2022-10-25');
+insert into registration (camp_id, donor_id, reg_date) values ('092021DE', 'DON72OP75', '2022-11-22');
+insert into registration (camp_id, donor_id, reg_date) values ('492021DE', 'DON72BP95', '2022-05-11');
+insert into registration (camp_id, donor_id, reg_date) values ('492021DE', 'DON52ABP55', '2022-01-18');
+insert into registration (camp_id, donor_id, reg_date) values ('902021NO', 'DON12ON55', '2022-07-06');
+insert into registration (camp_id, donor_id, reg_date) values ('902021NO', 'DON82ABP35', '2022-05-13');
+insert into registration (camp_id, donor_id, reg_date) values ('142020DE', 'DON12BP55', '2022-12-15');
+insert into registration (camp_id, donor_id, reg_date) values ('512020DE', 'DON32ABP45', '2022-09-03');
+insert into registration (camp_id, donor_id, reg_date) values ('752021NO', 'DON12ABP75', '2022-09-22');
 
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ON0001', 'O-', '4.7', '4.0', '0.4');
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABP002', 'AB+', '4.8', '0.9', '5.2');
@@ -163,16 +195,16 @@ insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
 
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H458', 'P633', 'roga', 'O+', 'RBC', '328ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H772', 'P310', 'surgery', 'O-', 'Plasma', '514ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H306', 'P070', 'roga', 'AB+', 'Plasma', '658ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'P451', 'accident', 'O-', 'Platelets', '614ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H533', 'P691', 'roga', 'AB-', 'RBC', '995ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'accident', 'AB+', 'WholeBlood', '954ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'accident', 'AB-', 'Platelets', '766ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL334', '8/8/2022', '12/21/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PL090', '9/8/2022', '3/21/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P6PL705', '3/30/2022', '5/22/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6RB299', '12/17/2021', '10/28/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PT485', '9/16/2022', '1/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL599', '1/7/2022', '4/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P4PL029', '12/30/2021', '12/20/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P6RB637', '8/20/2022', '6/25/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6PL037', '11/7/2022', '3/17/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P4PL788', '2/18/2022', '1/22/2022');
 
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Maroon', 'Wrennie', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Henderson', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
@@ -184,6 +216,17 @@ insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Maudie', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Hilary', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Turquoise', 'Sebastian', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
+
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H179', '6966', 'Anaemia', '2018/06/27');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H775', '9088', 'Malaria', '2020/03/30');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H077', '9354', 'Malaria', '2022/07/23');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H104', '4989', 'Anaemia', '2021/06/05');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H531', '6600', 'Anaemia', '2018/12/01');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H509', '4420', 'Malaria', '2018/08/02');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H361', '6085', 'Malaria', '2019/01/28');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H420', '5658', 'Anaemia', '2019/05/21');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H560', '8003', 'Surgery', '2022/07/12');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H209', '9229', 'Malaria', '2020/09/06');
 
 insert into blood (donor_id, sample_id) values ('DON92BN85', 'SPL5760');
 insert into blood (donor_id, sample_id) values ('DON22BN45', 'SPL2141');
@@ -208,61 +251,22 @@ insert into tested_by (sample_id, staff_id, result) values ('S099', 'STA625', 'N
 insert into tested_by (sample_id, staff_id, result) values ('S117', 'STA710', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('S900', 'STA762', 'POSITIVE');
 
-insert into registration (camp_id, donate_id, reg_date) values ('Orange', 'Vanni', '2022-12-26');
-insert into registration (camp_id, donate_id, reg_date) values ('Turquoise', 'Crissy', '2022-10-25');
-insert into registration (camp_id, donate_id, reg_date) values ('Crimson', 'Kimble', '2022-11-22');
-insert into registration (camp_id, donate_id, reg_date) values ('Maroon', 'Judye', '2022-05-11');
-insert into registration (camp_id, donate_id, reg_date) values ('Teal', 'Natalee', '2022-01-18');
-insert into registration (camp_id, donate_id, reg_date) values ('Khaki', 'Merle', '2022-07-06');
-insert into registration (camp_id, donate_id, reg_date) values ('Turquoise', 'Danell', '2022-05-13');
-insert into registration (camp_id, donate_id, reg_date) values ('Teal', 'Carla', '2022-12-15');
-insert into registration (camp_id, donate_id, reg_date) values ('Yellow', 'Waneta', '2022-09-03');
-insert into registration (camp_id, donate_id, reg_date) values ('Indigo', 'Gibbie', '2022-09-22');
-
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Quintana', '(965) 9775771', '8973 Bartillon Alley');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'Pepita', '(883) 2480785', '4649 Pawling Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Pam', '(379) 6971248', '85 Brickson Park Place');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Coriss', '(982) 7562402', '578 Helena Point');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'Aurore', '(617) 4669968', '80 Hudson Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'Burnard', '(409) 4988937', '02039 Burrows Road');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Waldo', '(180) 3720352', '5 Bellgrove Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Elisabetta', '(821) 7330187', '5 Bonner Alley');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H458', 'P633', 'roga', 'O+', 'RBC', '328ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H772', 'P310', 'surgery', 'O-', 'Plasma', '514ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H306', 'P070', 'roga', 'AB+', 'Plasma', '658ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'P451', 'accident', 'O-', 'Platelets', '614ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H533', 'P691', 'roga', 'AB-', 'RBC', '995ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'accident', 'AB+', 'WholeBlood', '954ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'accident', 'AB-', 'Platelets', '766ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
 
 
 
 
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL334', '8/8/2022', '12/21/2021');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PL090', '9/8/2022', '3/21/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P6PL705', '3/30/2022', '5/22/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6RB299', '12/17/2021', '10/28/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PT485', '9/16/2022', '1/19/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL599', '1/7/2022', '4/19/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P4PL029', '12/30/2021', '12/20/2021');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P6RB637', '8/20/2022', '6/25/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6PL037', '11/7/2022', '3/17/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P4PL788', '2/18/2022', '1/22/2022');
-
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT1444', 'Austine Worthington', 'M', '2022-10-30', 'AB+', '3304101024', '03796 Hudson Junction');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT6137', 'Hadrian Dumbare', 'F', '2022-05-23', 'AB+', '7265871979', '7762 Summit Trail');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT9437', 'Alikee Gerg', 'M', '2022-01-02', 'O-', '2756162197', '555 Sullivan Hill');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5815', 'Gladi Buggs', 'M', '2021-05-03', 'O-', '3307784521', '39217 Amoth Alley');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT2575', 'Andreana Effnert', 'M', '2020-04-13', 'B+', '1402535553', '0 Valley Edge Plaza');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0319', 'Doti Yggo', 'M', '2020-06-16', 'AB-', '6439043521', '3 Dexter Drive');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0479', 'Rutter Fallow', 'F', '2022-08-22', 'B-', '8905745027', '78502 Merry Circle');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT4437', 'Justin Point', 'F', '2020-07-08', 'O-', '7912348106', '28 North Pass');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5112', 'Rafi Blanking', 'F', '2022-05-15', 'AB+', '1127538147', '14264 Hoard Road');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0198', 'Moll Thackray', 'M', '2020-05-10', 'A+', '4007469998', '182 Mockingbird Place');
 
 
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H179', '6966', 'Anaemia', '2018/06/27');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H775', '9088', 'Malaria', '2020/03/30');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H077', '9354', 'Malaria', '2022/07/23');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H104', '4989', 'Anaemia', '2021/06/05');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H531', '6600', 'Anaemia', '2018/12/01');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H509', '4420', 'Malaria', '2018/08/02');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H361', '6085', 'Malaria', '2019/01/28');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H420', '5658', 'Anaemia', '2019/05/21');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H560', '8003', 'Surgery', '2022/07/12');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H209', '9229', 'Malaria', '2020/09/06');
+
+
+
