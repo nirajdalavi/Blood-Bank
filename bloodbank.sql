@@ -195,27 +195,27 @@ insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
 
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL334', '8/8/2022', '12/21/2021');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PL090', '9/8/2022', '3/21/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P6PL705', '3/30/2022', '5/22/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6RB299', '12/17/2021', '10/28/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PT485', '9/16/2022', '1/19/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL599', '1/7/2022', '4/19/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P4PL029', '12/30/2021', '12/20/2021');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P6RB637', '8/20/2022', '6/25/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6PL037', '11/7/2022', '3/17/2022');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P4PL788', '2/18/2022', '1/22/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ON0001', 'P5PL334', '8/8/2022', '12/21/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ON0001', 'P5PL090', '9/8/2022', '3/21/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BN0005', 'P6PL705', '3/30/2022', '5/22/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AP0004', 'P6RB299', '12/17/2021', '10/28/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ABN006', 'P5PT485', '9/16/2022', '1/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'OP0003', 'P5PL599', '1/7/2022', '4/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ABP002', 'P4PL029', '12/30/2021', '12/20/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P6RB637', '8/20/2022', '6/25/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AN0008', 'P6PL037', '11/7/2022', '3/17/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ON0001', 'P4PL788', '2/18/2022', '1/22/2022');
 
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Maroon', 'Wrennie', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Henderson', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Iolanthe', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Orange', 'Othelia', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Pink', 'Denni', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Puce', 'Tymothy', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Purple', 'Raine', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Maudie', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Hilary', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Turquoise', 'Sebastian', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP9', '07-1388053', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', '89-8871035', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON52ABP55', '07-1388053', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON42BP75', '95-5297699', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ON55', '95-5297699', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12BP55', '25-8346204', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON82ABP35', '25-8346204', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON32ABP45', '57-6117875', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ABP75', '57-6117875', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72OP75', '89-8871035', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
 
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H179', '6966', 'Anaemia', '2018/06/27');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H775', '9088', 'Malaria', '2020/03/30');
