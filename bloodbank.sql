@@ -142,3 +142,15 @@ insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) va
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('172022SE', '2021/09/26', 'Shaydon', 'White, West and Lind');
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('512020DE', '2019/02/14', 'Padang', 'Upton Inc');
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('902021NO', '2019/05/17', 'Uinskoye', 'Deckow Inc');
+
+
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (1, 'Radcliffe', 'M', '2022-04-15', 'B-', '2483747490', '667 Kim Court');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (2, 'Moishe', 'M', '2022-02-01', 'A-', '5389084849', '3 Stuart Alley');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (3, 'Barn', 'M', '2022-08-31', 'A+', '4178787386', '00622 Goodland Place');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (4, 'Kelila', 'F', '2022-01-19', 'B+', '4566934137', '58494 Buhler Road');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (5, 'Dorie', 'M', '2022-01-21', 'O+', '5256896468', '8205 Bonner Plaza');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (6, 'Amabel', 'F', '2021-12-20', 'O+', '3474656261', '01 Division Way');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (7, 'Gabrielle', 'F', '2022-05-27', 'A+', '7742912547', '563 Ronald Regan Alley');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (8, 'Ulric', 'M', '2022-06-10', 'O-', '6395699476', '2567 Graedel Point');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (9, 'Alistair', 'M', '2022-03-04', 'O+', '7023633366', '052 Eggendart Street');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (10, 'Eustace', 'M', '2022-01-27', 'O-', '9444984525', '4 Westerfield Alley');
