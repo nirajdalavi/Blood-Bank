@@ -119,3 +119,16 @@ create table if not exists req_rec(
 );
 
 show tables;
+
+
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('63-9145880', 'Corbet Bloss', 'Sheet Metal Worker', 'F', 'Male', 'AB+', '569-109-6364', '23 Old Gate Terrace');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('51-2418025', 'Una Osmon', 'Pipelayer', 'M', 'Female', 'A+', '679-220-7980', '31020 Blackbird Avenue');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('62-0320805', 'Merralee Ratcliff', 'Tile Setter', 'M', 'Polygender', 'A-', '248-908-5121', '9532 New Castle Crossing');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('68-5949756', 'Mickie Cochrane', 'Welder', 'F', 'Male', 'AB-', '687-203-1552', '9 Heffernan Junction');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('36-2764166', 'Blondie Waddy', 'Refridgeration', 'F', 'Female', 'A-', '754-223-9058', '43 Jenna Crossing');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('97-5990597', 'Frederico Allmann', 'Plumber', 'F', 'Male', 'A+', '902-579-8576', '3 Parkside Street');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('39-6069792', 'Melisandra Schober', 'Cement Mason', 'M', 'Female', 'AB-', '823-498-8197', '78 Sundown Circle');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('91-9278458', 'Elka Draisey', 'Equipment Operator', 'F', 'Bigender', 'AB-', '417-826-8314', '5 Forest Dale Hill');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('88-4469118', 'Alfie Errey', 'Millwright', 'F', 'Female', 'O-', '878-686-7819', '278 Loeprich Pass');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('52-1081623', 'Raymond Larmet', 'Ironworker', 'M', 'Male', 'AB-', '581-346-8772', '369 Melby Park');
+
