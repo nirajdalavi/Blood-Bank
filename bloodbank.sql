@@ -154,3 +154,15 @@ insert into patient (patient_id, patient_name, patient_gender, patient_dob, pati
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (8, 'Ulric', 'M', '2022-06-10', 'O-', '6395699476', '2567 Graedel Point');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (9, 'Alistair', 'M', '2022-03-04', 'O+', '7023633366', '052 Eggendart Street');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (10, 'Eustace', 'M', '2022-01-27', 'O-', '9444984525', '4 Westerfield Alley');
+
+
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H404', 'Lockwood', '4003570438', '426 Kim Street');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H637', 'Karee', '4893513645', '54 Eliot Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H537', 'Ricoriki', '3895162115', '9417 Atwood Plaza');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H347', 'Boote', '8127893410', '8003 Drewry Terrace');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H106', 'Marquita', '2307372601', '5102 Butternut Trail');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H082', 'Paquito', '2422684991', '3113 Kingsford Trail');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H117', 'Cirilo', '1564665912', '0 Mosinee Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H744', 'Juli', '1338013695', '012 Melody Place');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H800', 'Myranda', '4343311074', '54506 Rockefeller Park');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H610', 'Merle', '1548501867', '0283 Summit Terrace');
