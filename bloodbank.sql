@@ -254,3 +254,15 @@ insert into patient (patient_id, patient_name, patient_gender, patient_dob, pati
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT4437', 'Justin Point', 'F', '2020-07-08', 'O-', '7912348106', '28 North Pass');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5112', 'Rafi Blanking', 'F', '2022-05-15', 'AB+', '1127538147', '14264 Hoard Road');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0198', 'Moll Thackray', 'M', '2020-05-10', 'A+', '4007469998', '182 Mockingbird Place');
+
+
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H179', '6966', 'Anaemia', '2018/06/27');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H775', '9088', 'Malaria', '2020/03/30');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H077', '9354', 'Malaria', '2022/07/23');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H104', '4989', 'Anaemia', '2021/06/05');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H531', '6600', 'Anaemia', '2018/12/01');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H509', '4420', 'Malaria', '2018/08/02');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H361', '6085', 'Malaria', '2019/01/28');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H420', '5658', 'Anaemia', '2019/05/21');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H560', '8003', 'Surgery', '2022/07/12');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H209', '9229', 'Malaria', '2020/09/06');
