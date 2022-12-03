@@ -240,27 +240,27 @@ insert into blood (donor_id, sample_id) values ('DON82ABP35', 'SPL3029');
 insert into blood (donor_id, sample_id) values ('DON12BP55', 'SPL3795');
 
 
-insert into tested_by (sample_id, staff_id, result) values ('S782', 'ST8119', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S491', 'ST8119', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S811', 'ST6028', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S799', 'ST6028', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S169', 'ST7117', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S509', 'ST7117', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S846', 'ST6416', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S099', 'ST6416', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S117', 'ST6147', 'NEGATIVE');
-insert into tested_by (sample_id, staff_id, result) values ('S900', 'ST6147', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL5760', 'ST8119', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL2141', 'ST8119', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL7553', 'ST6028', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL7380', 'ST6028', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL0835', 'ST7117', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL8239', 'ST7117', 'ENGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL8009', 'ST6416', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL3795', 'ST6147', 'POSITIVE');
 
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H458', 'P633', 'roga', 'O+', 'RBC', '328ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H772', 'P310', 'surgery', 'O-', 'Plasma', '514ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H306', 'P070', 'roga', 'AB+', 'Plasma', '658ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'P451', 'accident', 'O-', 'Platelets', '614ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H533', 'P691', 'roga', 'AB-', 'RBC', '995ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'accident', 'AB+', 'WholeBlood', '954ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'accident', 'AB-', 'Platelets', '766ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H981', 'PAT6137', 'Malaria', 'AB+', 'Plasma', '514ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT9437', 'Malaria', 'O-', 'Plasma', '658ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT5815', 'Anaemia', 'O-', 'Platelets', '614ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT0319', 'Malaria', 'AB-', 'WholeBlood', '954ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT0479', 'Malaria', 'B-', 'Platelets', '766ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT4437', 'Anaemia', 'O-', 'Plasma', '715ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H981', 'PAT5112', 'Surgery', 'AB+', 'WholeBlood', '419ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H496', 'PAT0198', 'Malaria', 'A+', 'RBC', '356ml');
 
 
 
