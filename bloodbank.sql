@@ -49,7 +49,7 @@ create table if not exists donationcamp(
 create table if not exists registration(
     camp_id varchar(10) not null,
     donor_id varchar(10) not null,
-    date_of_reg date not null,
+    reg_date date not null,
     foreign key(donor_id) references donor(donor_id) on delete cascade,
     foreign key(camp_id) references donationcamp(camp_id) on delete cascade
 );
@@ -88,7 +88,7 @@ create table if not exists admits(
     hospital_id varchar(10) not null,
     patient_id varchar(10) not null,
     patient_case varchar(30) not null,
-    date_of_admission date not null,
+    admission_date date not null,
     foreign key(hospital_id) references hospital(hospital_id) on delete cascade,
     foreign key(patient_id) references patient(patient_id) on delete cascade
 );
@@ -158,8 +158,8 @@ insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qt
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H306', 'P070', 'roga', 'AB+', 'Plasma', '658ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'P451', 'accident', 'O-', 'Platelets', '614ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H533', 'P691', 'roga', 'AB-', 'RBC', '995ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'roga', 'AB+', 'WholeBlood', '954ml');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'roga', 'AB-', 'Platelets', '766ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H236', 'P901', 'accident', 'AB+', 'WholeBlood', '954ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H985', 'P963', 'accident', 'AB-', 'Platelets', '766ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
