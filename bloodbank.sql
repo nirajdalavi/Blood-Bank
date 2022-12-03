@@ -120,6 +120,16 @@ create table if not exists req_rec(
 
 show tables;
 
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON22ABN75', 'Brigida Dwane', 'F', '30/08/1986', 'AB-', '6902132339', '31634 Melody Way');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72BP95', 'Brittney Dmitrichenko', 'M', '18/03/1975', 'B+', '2341093583', '5 1st Alley');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON52ABP55', 'Dallas Bennetts', 'F', '12/11/1994', 'AB+', '3555216529', '2549 Sauthoff Terrace');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12ON55', 'Reuven De''Vere - Hunt', 'F', '09/09/1977', 'O-', '1041830264', '00 Carberry Parkway');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON42BP75', 'Jacky Suttie', 'F', '12/03/1998', 'B+', '2548560680', '69151 Twin Pines Way');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72OP75', 'Yorke Thurner', 'F', '07/10/1984', 'O+', '5746638110', '491 Bobwhite Crossing');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12ABP75', 'Perceval Waterhowse', 'F', '14/07/1999', 'B+', '6822777389', '7 Hoepker Parkway');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON32ABP45', 'Filmer Christene', 'M', '14/10/1975', 'B+', '5206790107', '336 Elmside Park');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '05/02/1977', 'AB+', '5115548614', '1 Lakeland Alley');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '21/02/1992', 'B+', '5169777885', '4 Merchant Alley');
 
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('07-1388053', 'Car Barnwell', 'Landscaper', 'F', 'Male', 'AB-', '1434520581', '028 Buell Circle');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('97-5745426', 'Galen Errichelli', 'Carpenter', 'F', 'Male', 'B+', '5649631213', '3980 Mallard Park');
