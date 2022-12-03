@@ -167,24 +167,24 @@ insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_addre
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H800', 'Myranda', '4343311074', '54506 Rockefeller Park');
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H610', 'Merle', '1548501867', '0283 Summit Terrace');
 
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72AP05', 'Jewelle Hulke', 'F', '08/02/1978', 'A+', '4119871314', '275 Bobwhite Center');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BN55', 'Nara Verny', 'F', '08/04/1973', 'B-', '6705351040', '8110 Carey Junction');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP95', 'Brendis McSpirron', 'M', '30/11/1998', 'O+', '2849729072', '2291 Shopko Junction');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON32AP15', 'Barrett Saddleton', 'M', '23/05/1992', 'A+', '8763319806', '95674 Marquette Trail');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP75', 'Lilyan Walburn', 'F', '20/06/1977', 'O+', '7939465117', '9773 Shopko Court');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72BN85', 'Hubey Kynforth', 'M', '05/05/2000', 'B-', '6181843861', '99349 Starling Point');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON52BN75', 'Merrill Mayo', 'M', '23/08/1991', 'B-', '5121508691', '0319 Bonner Place');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP05', 'Adele Dykes', 'F', '18/08/1985', 'O+', '4206623540', '54300 School Terrace');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP55', 'Elane Cicchelli', 'F', '14/06/1999', 'O+', '3264352455', '72 Sage Crossing');
-insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BP55', 'Zackariah Diwell', 'M', '28/03/1996', 'B+', '6703017498', '04187 Corscot Trail');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72AP05', 'Jewelle Hulke', 'F', '08/02/1978', 'A+', '4119871314', '275 Bobwhite Center');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BN55', 'Nara Verny', 'F', '08/04/1973', 'B-', '6705351040', '8110 Carey Junction');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP95', 'Brendis McSpirron', 'M', '30/11/1998', 'O+', '2849729072', '2291 Shopko Junction');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON32AP15', 'Barrett Saddleton', 'M', '23/05/1992', 'A+', '8763319806', '95674 Marquette Trail');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP75', 'Lilyan Walburn', 'F', '20/06/1977', 'O+', '7939465117', '9773 Shopko Court');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72BN85', 'Hubey Kynforth', 'M', '05/05/2000', 'B-', '6181843861', '99349 Starling Point');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON52BN75', 'Merrill Mayo', 'M', '23/08/1991', 'B-', '5121508691', '0319 Bonner Place');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP05', 'Adele Dykes', 'F', '18/08/1985', 'O+', '4206623540', '54300 School Terrace');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP55', 'Elane Cicchelli', 'F', '14/06/1999', 'O+', '3264352455', '72 Sage Crossing');
+insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BP55', 'Zackariah Diwell', 'M', '28/03/1996', 'B+', '6703017498', '04187 Corscot Trail');
 
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H864', 'P042', 'roga', '7/5/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H493', 'P471', 'roga', '1/2/2021');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H493', 'P471', 'accident', '1/2/2021');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H962', 'P576', 'roga', '5/19/2021');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H967', 'P547', 'roga', '6/18/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H205', 'P884', 'roga', '10/25/2019');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H967', 'P547', 'accident', '6/18/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H205', 'P884', 'accident', '10/25/2019');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H214', 'P885', 'roga', '10/28/2022');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H303', 'P880', 'surgery', '8/4/2019');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H695', 'P369', 'roga', '8/12/2019');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H234', 'P330', 'roga', '10/18/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H234', 'P330', 'accident', '10/18/2022');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H860', 'P408', 'roga', '7/21/2022');
