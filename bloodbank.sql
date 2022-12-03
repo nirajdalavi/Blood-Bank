@@ -49,7 +49,7 @@ create table if not exists donationcamp(
 create table if not exists registration(
     camp_id varchar(10) not null,
     donor_id varchar(10) not null,
-    reg_date date not null,
+    date_of_reg date not null,
     foreign key(donor_id) references donor(donor_id) on delete cascade,
     foreign key(camp_id) references donationcamp(camp_id) on delete cascade
 );
@@ -88,7 +88,7 @@ create table if not exists admits(
     hospital_id varchar(10) not null,
     patient_id varchar(10) not null,
     patient_case varchar(30) not null,
-    admission_date date not null,
+    date_of_admission date not null,
     foreign key(hospital_id) references hospital(hospital_id) on delete cascade,
     foreign key(patient_id) references patient(patient_id) on delete cascade
 );
@@ -144,47 +144,11 @@ insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) va
 insert into donationcamp (camp_id, camp_date, camp_location, camp_organizers) values ('902021NO', '2019/05/17', 'Uinskoye', 'Deckow Inc');
 
 
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (1, 'Radcliffe', 'M', '2022-04-15', 'B-', '2483747490', '667 Kim Court');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (2, 'Moishe', 'M', '2022-02-01', 'A-', '5389084849', '3 Stuart Alley');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (3, 'Barn', 'M', '2022-08-31', 'A+', '4178787386', '00622 Goodland Place');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (4, 'Kelila', 'F', '2022-01-19', 'B+', '4566934137', '58494 Buhler Road');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (5, 'Dorie', 'M', '2022-01-21', 'O+', '5256896468', '8205 Bonner Plaza');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (6, 'Amabel', 'F', '2021-12-20', 'O+', '3474656261', '01 Division Way');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (7, 'Gabrielle', 'F', '2022-05-27', 'A+', '7742912547', '563 Ronald Regan Alley');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (8, 'Ulric', 'M', '2022-06-10', 'O-', '6395699476', '2567 Graedel Point');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (9, 'Alistair', 'M', '2022-03-04', 'O+', '7023633366', '052 Eggendart Street');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone , patient_address) values (10, 'Eustace', 'M', '2022-01-27', 'O-', '9444984525', '4 Westerfield Alley');
-
-
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H404', 'Lockwood', '4003570438', '426 Kim Street');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H637', 'Karee', '4893513645', '54 Eliot Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H537', 'Ricoriki', '3895162115', '9417 Atwood Plaza');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H347', 'Boote', '8127893410', '8003 Drewry Terrace');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H106', 'Marquita', '2307372601', '5102 Butternut Trail');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H082', 'Paquito', '2422684991', '3113 Kingsford Trail');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H117', 'Cirilo', '1564665912', '0 Mosinee Alley');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H744', 'Juli', '1338013695', '012 Melody Place');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H800', 'Myranda', '4343311074', '54506 Rockefeller Park');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H610', 'Merle', '1548501867', '0283 Summit Terrace');
-
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72AP05', 'Jewelle Hulke', 'F', '08/02/1978', 'A+', '4119871314', '275 Bobwhite Center');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BN55', 'Nara Verny', 'F', '08/04/1973', 'B-', '6705351040', '8110 Carey Junction');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP95', 'Brendis McSpirron', 'M', '30/11/1998', 'O+', '2849729072', '2291 Shopko Junction');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON32AP15', 'Barrett Saddleton', 'M', '23/05/1992', 'A+', '8763319806', '95674 Marquette Trail');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP75', 'Lilyan Walburn', 'F', '20/06/1977', 'O+', '7939465117', '9773 Shopko Court');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON72BN85', 'Hubey Kynforth', 'M', '05/05/2000', 'B-', '6181843861', '99349 Starling Point');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON52BN75', 'Merrill Mayo', 'M', '23/08/1991', 'B-', '5121508691', '0319 Bonner Place');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82OP05', 'Adele Dykes', 'F', '18/08/1985', 'O+', '4206623540', '54300 School Terrace');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP55', 'Elane Cicchelli', 'F', '14/06/1999', 'O+', '3264352455', '72 Sage Crossing');
-insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BP55', 'Zackariah Diwell', 'M', '28/03/1996', 'B+', '6703017498', '04187 Corscot Trail');
-
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H864', 'P042', 'roga', '7/5/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H493', 'P471', 'accident', '1/2/2021');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H962', 'P576', 'roga', '5/19/2021');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H967', 'P547', 'accident', '6/18/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H205', 'P884', 'accident', '10/25/2019');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H214', 'P885', 'roga', '10/28/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H303', 'P880', 'surgery', '8/4/2019');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H695', 'P369', 'roga', '8/12/2019');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H234', 'P330', 'accident', '10/18/2022');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H860', 'P408', 'roga', '7/21/2022');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ON0001', 'O-', '4.7', '4.0', '0.4');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ABP002', 'AB+', '4.8', '0.9', '5.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('OP0003', 'O+', '5.6', '8.3', '1.6');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('AP0004', 'A+', '5.9', '7.6', '9.0');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('BN0005', 'B-', '9.1', '8.6', '8.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('ABN006', 'AB-', '9.3', '7.2', '3.4');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
+insert into repository (blood_id, blood_group, RBC, Platelets, PLasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
