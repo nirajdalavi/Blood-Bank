@@ -131,6 +131,16 @@ insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, 
 insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '05/02/1977', 'AB+', '5115548614', '1 Lakeland Alley');
 insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '21/02/1992', 'B+', '5169777885', '4 Merchant Alley');
 
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST2481', 'Gerhard Mottershead', 'Doctor', '1987-08-27', 'AB-', '5629881493', '5660 Delladonna Court');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST7389', 'Tally Fearnsides', 'Doctor', 'F', '1974-11-27', 'O+', '5791401782', '15322 Ryan Hill');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST1424', 'Edy Luigi', 'Doctor', 'F', '1996-08-11', 'AB-', '7165755391', '7 Dexter Crossing');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST8588', 'Hedvige Wippermann', 'Doctor', 'M', '1976-06-09', 'O-', '5657993180', '00131 Tennyson Hill');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST9536', 'Brooks Organ', 'Doctor', 'M', '1990-04-26', 'AB+', '9091032808', '16 Esch Park');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST8119', 'Tybie O''Fairy', 'BloodAnalyst','1994-08-31', 'AB-', '2212200240', '4 Forest Run Avenue');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6028', 'Shanna Drysdall', 'BloodAnalyst', 'M', '1971-11-28', 'A+', '4418293220', '85 Sutherland Plaza');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST7117', 'Elora Grew', 'BloodAnalyst', 'M', '1997-03-13', 'AB+', '6686698570', '02209 Merrick Crossing');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6416', 'Dalton Chiese', 'BloodAnalyst', 'M', '1977-04-24', 'AB-', '5562544008', '05 Coleman Drive');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6147', 'Margalit Thomkins', 'BloodAnalyst', 'M', '2002-04-24', 'A-', '5416841356', '557 Anhalt Place');
 
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
