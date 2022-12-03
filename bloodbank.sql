@@ -131,16 +131,6 @@ insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, 
 insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '05/02/1977', 'AB+', '5115548614', '1 Lakeland Alley');
 insert into donor (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '21/02/1992', 'B+', '5169777885', '4 Merchant Alley');
 
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('07-1388053', 'Car Barnwell', 'Landscaper', 'F', 'Male', 'AB-', '1434520581', '028 Buell Circle');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('97-5745426', 'Galen Errichelli', 'Carpenter', 'F', 'Male', 'B+', '5649631213', '3980 Mallard Park');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('57-6117875', 'Sella Humbell', 'Cement Mason', 'F', 'Female', 'O+', '1352377028', '6238 Meadow Ridge Center');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('89-8871035', 'Beilul di Rocca', 'Plasterers', 'F', 'Female', 'B+', '9361083378', '8 Reinke Terrace');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('25-8346204', 'Aileen Beadell', 'Waterproofer', 'M', 'Female', 'AB-', '4908385029', '662 Morning Place');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('41-9018217', 'Tabbatha Ropkes', 'Glazier', 'M', 'Female', 'AB-', '6051801939', '7 Sunnyside Park');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('43-1237946', 'Denis Milson', 'Electrician', 'M', 'Male', 'B+', '9783904360', '79 Leroy Lane');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('95-5297699', 'Jesse Garey', 'Tile Setter', 'F', 'Female', 'O+', '1587373587', '54249 New Castle Place');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('45-0743893', 'Daphne Rickword', 'Pipefitter', 'M', 'Female', 'AB+', '2319723173', '85 Buena Vista Alley');
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('90-0175079', 'Bonnie Watford', 'Equipment Operator', 'F', 'Female', 'AB+', '1567985206', '68 Spaight Street');
 
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
@@ -206,38 +196,38 @@ insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AN0008', 'P6PL037', '11/7/2022', '3/17/2022');
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ON0001', 'P4PL788', '2/18/2022', '1/22/2022');
 
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP9', '07-1388053', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', '89-8871035', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON52ABP55', '07-1388053', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON42BP75', '95-5297699', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ON55', '95-5297699', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12BP55', '25-8346204', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON82ABP35', '25-8346204', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON32ABP45', '57-6117875', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ABP75', '57-6117875', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
-insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72OP75', '89-8871035', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP95', '', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', '', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON52ABP55', '', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON42BP75', '', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ON55', '', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12BP55', '', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON82ABP35', '', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON32ABP45', '', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON12ABP75', '', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72OP75', '', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
 
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H179', '6966', 'Anaemia', '2018/06/27');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H775', '9088', 'Malaria', '2020/03/30');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H077', '9354', 'Malaria', '2022/07/23');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H104', '4989', 'Anaemia', '2021/06/05');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H531', '6600', 'Anaemia', '2018/12/01');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H509', '4420', 'Malaria', '2018/08/02');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H361', '6085', 'Malaria', '2019/01/28');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H420', '5658', 'Anaemia', '2019/05/21');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H560', '8003', 'Surgery', '2022/07/12');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H209', '9229', 'Malaria', '2020/09/06');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H496', 'PAT1444', 'Anaemia', '2018/06/27');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H981', 'PAT6137', 'Malaria', '2020/03/30');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H807', 'PAT9437', 'Malaria', '2022/07/23');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H247', 'PAT5815', 'Anaemia', '2021/06/05');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H256', 'PAT2575', 'Anaemia', '2018/12/01');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H256', 'PAT0319', 'Malaria', '2018/08/02');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H247', 'PAT0479', 'Malaria', '2019/01/28');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H807', 'PAT4437', 'Anaemia', '2019/05/21');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H981', 'PAT5112', 'Surgery', '2022/07/12');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H496', 'PAT0198', 'Malaria', '2020/09/06');
 
-insert into blood (donor_id, sample_id) values ('DON92BN85', 'SPL5760');
-insert into blood (donor_id, sample_id) values ('DON22BN45', 'SPL2141');
-insert into blood (donor_id, sample_id) values ('DON42AN85', 'SPL7553');
-insert into blood (donor_id, sample_id) values ('DON82AN05', 'SPL7380');
-insert into blood (donor_id, sample_id) values ('DON02AP45', 'SPL0835');
-insert into blood (donor_id, sample_id) values ('DON22OP15', 'SPL8239');
-insert into blood (donor_id, sample_id) values ('DON52ON05', 'SPL8009');
-insert into blood (donor_id, sample_id) values ('DON42BP45', 'SPL3175');
-insert into blood (donor_id, sample_id) values ('DON62OP65', 'SPL3029');
-insert into blood (donor_id, sample_id) values ('DON62BN95', 'SPL3795');
+insert into blood (donor_id, sample_id) values ('DON22ABN75', 'SPL5760');
+insert into blood (donor_id, sample_id) values ('DON72BP95', 'SPL2141');
+insert into blood (donor_id, sample_id) values ('DON52ABP55', 'SPL7553');
+insert into blood (donor_id, sample_id) values ('DON12ON55', 'SPL7380');
+insert into blood (donor_id, sample_id) values ('DON42BP75', 'SPL0835');
+insert into blood (donor_id, sample_id) values ('DON72OP75', 'SPL8239');
+insert into blood (donor_id, sample_id) values ('DON12ABP75', 'SPL8009');
+insert into blood (donor_id, sample_id) values ('DON32ABP45', 'SPL3175');
+insert into blood (donor_id, sample_id) values ('DON82ABP35', 'SPL3029');
+insert into blood (donor_id, sample_id) values ('DON12BP55', 'SPL3795');
 
 
 insert into tested_by (sample_id, staff_id, result) values ('S782', 'STA633', 'NEGATIVE');
