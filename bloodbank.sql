@@ -178,3 +178,13 @@ insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone
 insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON12OP55', 'Elane Cicchelli', 'Female', '14/06/1999', 'O+', '3264352455', '72 Sage Crossing');
 insert into patient (donor_id, donor_name, gender, donor_dob, blood group, phone, donor_address) values ('DON02BP55', 'Zackariah Diwell', 'Male', '28/03/1996', 'B+', '6703017498', '04187 Corscot Trail');
 
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H864', 'P042', 'roga', '7/5/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H493', 'P471', 'roga', '1/2/2021');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H962', 'P576', 'roga', '5/19/2021');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H967', 'P547', 'roga', '6/18/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H205', 'P884', 'roga', '10/25/2019');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H214', 'P885', 'roga', '10/28/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H303', 'P880', 'surgery', '8/4/2019');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H695', 'P369', 'roga', '8/12/2019');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H234', 'P330', 'roga', '10/18/2022');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H860', 'P408', 'roga', '7/21/2022');
