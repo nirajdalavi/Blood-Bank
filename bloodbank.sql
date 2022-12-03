@@ -185,3 +185,15 @@ insert into blood (donor_id, sample_id) values ('DON52ON05', 'SPL8009');
 insert into blood (donor_id, sample_id) values ('DON42BP45', 'SPL3175');
 insert into blood (donor_id, sample_id) values ('DON62OP65', 'SPL3029');
 insert into blood (donor_id, sample_id) values ('DON62BN95', 'SPL3795');
+
+
+insert into tested_by (sample_id, staff_id, result) values ('S782', 'STA633', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S491', 'STA415', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S811', 'STA884', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S799', 'STA304', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S169', 'STA800', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S509', 'STA061', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S846', 'STA336', 'POSITIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S099', 'STA625', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S117', 'STA710', 'NEGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('S900', 'STA762', 'POSITIVE');
