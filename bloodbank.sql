@@ -218,3 +218,14 @@ insert into registration (camp_id, donate_id, reg_date) values ('Turquoise', 'Da
 insert into registration (camp_id, donate_id, reg_date) values ('Teal', 'Carla', '2022-12-15');
 insert into registration (camp_id, donate_id, reg_date) values ('Yellow', 'Waneta', '2022-09-03');
 insert into registration (camp_id, donate_id, reg_date) values ('Indigo', 'Gibbie', '2022-09-22');
+
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Quintana', '(965) 9775771', '8973 Bartillon Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'Pepita', '(883) 2480785', '4649 Pawling Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Pam', '(379) 6971248', '85 Brickson Park Place');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Coriss', '(982) 7562402', '578 Helena Point');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'Aurore', '(617) 4669968', '80 Hudson Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'Burnard', '(409) 4988937', '02039 Burrows Road');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Waldo', '(180) 3720352', '5 Bellgrove Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Elisabetta', '(821) 7330187', '5 Bonner Alley');
