@@ -163,3 +163,14 @@ insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qt
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H965', 'P632', 'roga', 'AB-', 'Plasma', '715ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H046', 'P826', 'accident', 'AB-', 'WholeBlood', '419ml');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H968', 'P466', 'roga', 'AB+', 'RBC', '356ml');
+
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Maroon', 'Wrennie', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Henderson', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Iolanthe', 'Platelets', 'Emergency', '2022-11-09', '2021-09-22');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Orange', 'Othelia', 'Plasma', 'Emergency', '2022-11-17', '2021-03-21');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Pink', 'Denni', 'Plasma', 'Normal', '2022-04-28', '2022-06-16');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Puce', 'Tymothy', 'Plasma', 'Normal', '2022-04-09', '2021-04-06');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Purple', 'Raine', 'Whole_blood', 'Normal', '2022-09-03', '2020-08-25');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Maudie', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Hilary', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
+insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Turquoise', 'Sebastian', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
