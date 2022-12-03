@@ -229,3 +229,17 @@ insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_addre
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'Burnard', '(409) 4988937', '02039 Burrows Road');
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Waldo', '(180) 3720352', '5 Bellgrove Court');
 insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Elisabetta', '(821) 7330187', '5 Bonner Alley');
+
+
+
+
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL334', '8/8/2022', '12/21/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PL090', '9/8/2022', '3/21/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P6PL705', '3/30/2022', '5/22/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6RB299', '12/17/2021', '10/28/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P5PT485', '9/16/2022', '1/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P5PL599', '1/7/2022', '4/19/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', '', 'P4PL029', '12/30/2021', '12/20/2021');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P6RB637', '8/20/2022', '6/25/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', '', 'P6PL037', '11/7/2022', '3/17/2022');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', '', 'P4PL788', '2/18/2022', '1/22/2022');
