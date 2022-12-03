@@ -174,3 +174,14 @@ insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Goldenrod', 'Maudie', 'Platelets', 'Emergency', '2022-05-24', '2021-06-11');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Teal', 'Hilary', 'Whole_blood', 'Normal', '2022-01-08', '2020-05-18');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('Turquoise', 'Sebastian', 'Power_red', 'Emergency', '2022-08-03', '2021-12-08');
+
+insert into blood (donor_id, sample_id) values ('DON92BN85', 'SPL5760');
+insert into blood (donor_id, sample_id) values ('DON22BN45', 'SPL2141');
+insert into blood (donor_id, sample_id) values ('DON42AN85', 'SPL7553');
+insert into blood (donor_id, sample_id) values ('DON82AN05', 'SPL7380');
+insert into blood (donor_id, sample_id) values ('DON02AP45', 'SPL0835');
+insert into blood (donor_id, sample_id) values ('DON22OP15', 'SPL8239');
+insert into blood (donor_id, sample_id) values ('DON52ON05', 'SPL8009');
+insert into blood (donor_id, sample_id) values ('DON42BP45', 'SPL3175');
+insert into blood (donor_id, sample_id) values ('DON62OP65', 'SPL3029');
+insert into blood (donor_id, sample_id) values ('DON62BN95', 'SPL3795');
