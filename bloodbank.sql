@@ -62,7 +62,8 @@ create table if not exists repository(
     PLasma integer not null
 );
 
-create table if not exists RBC(
+create table if not exists Blood_Components(
+    component type varchar(3) not null;
     blood_id varchar(10) not null,
     packet_id varchar(10) not null primary key,
     ext_date date not null,
@@ -70,21 +71,6 @@ create table if not exists RBC(
     foreign key(blood_id) references repository(blood_id) on delete cascade
 );
 
-create table if not exists Platelets(
-    blood_id varchar(10) not null,
-    packet_id varchar(10) not null primary key,
-    ext_date date not null,
-    exp_date date not null,
-    foreign key(blood_id) references repository(blood_id) on delete cascade
-);
-
-create table if not exists Plasma(
-    blood_id varchar(10) not null,
-    packet_id varchar(10) not null primary key,
-    ext_date date not null,
-    exp_date date not null,
-    foreign key(blood_id) references repository(blood_id) on delete cascade
-);
 
 create table if not exists donates(
     donor_id varchar(10) not null,
