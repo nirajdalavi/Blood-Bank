@@ -149,16 +149,16 @@ insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, st
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6416', 'Dalton Chiese', 'BloodAnalyst', 'M', '1977-04-24', 'AB-', '5562544008', '05 Coleman Drive');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6147', 'Margalit Thomkins', 'BloodAnalyst', 'M', '2002-04-24', 'A-', '5416841356', '557 Anhalt Place');
 
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Angelica', '(549) 7007177', '9 Badeau Circle');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Monika', '(916) 1193148', '104 Donald Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Quintana', '(965) 9775771', '8973 Bartillon Alley');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'Pepita', '(883) 2480785', '4649 Pawling Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Pam', '(379) 6971248', '85 Brickson Park Place');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Coriss', '(982) 7562402', '578 Helena Point');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'Aurore', '(617) 4669968', '80 Hudson Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'Burnard', '(409) 4988937', '02039 Burrows Road');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Waldo', '(180) 3720352', '5 Bellgrove Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Elisabetta', '(821) 7330187', '5 Bonner Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Apollo', '(549) 7007177', '9 Badeau Circle');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Mission Hospital', '(916) 1193148', '104 Donald Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Manipal', '(965) 9775771', '8973 Bartillon Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'KR Hospital', '(883) 2480785', '4649 Pawling Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Narayana Hrudayalaya', '(379) 6971248', '85 Brickson Park Place');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Columbia Asia', '(982) 7562402', '578 Helena Point');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'BM Hospital', '(617) 4669968', '80 Hudson Lane');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'NJ Hospital', '(409) 4988937', '02039 Burrows Road');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Bhanavi Hosiptal', '(180) 3720352', '5 Bellgrove Court');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Kamakshi Hospital', '(821) 7330187', '5 Bonner Alley');
 
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT1444', 'Austine Worthington', 'M', '2022-10-30', 'AB+', '3304101024', '03796 Hudson Junction');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT6137', 'Hadrian Dumbare', 'F', '2022-05-23', 'AB+', '7265871979', '7762 Summit Trail');
