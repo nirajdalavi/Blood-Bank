@@ -57,9 +57,9 @@ create table if not exists registration(
 create table if not exists repository(
     blood_id varchar(10) not null primary key,
     blood_group varchar(3) not null,
-    RBC integer not null,
-    Platelets integer not null,
-    Plasma integer not null
+    RBC decimal(3,1) not null,
+    Platelets decimal(3,1) not null,
+    Plasma decimal(3,1) not null
 );
 
 create table if not exists Blood_Components(
