@@ -255,7 +255,7 @@ insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qt
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H981', 'PAT6137', 'Malaria', 'AB+', 'Plasma', '514');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT9437', 'Malaria', 'O-', 'Plasma', '658');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT5815', 'Anaemia', 'O-', 'Platelets', '614');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995ml');
+insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT0319', 'Malaria', 'AB-', 'WholeBlood', '954');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT0479', 'Malaria', 'B-', 'Platelets', '766');
 insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT4437', 'Anaemia', 'O-', 'Plasma', '715');
