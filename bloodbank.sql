@@ -267,7 +267,7 @@ insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_t
 insert into receives (req_id, req_status, bill, packet_id) values ('RABP123', 'completed', 1584.1, 'P6RB705');
 insert into receives (req_id, req_status, bill, packet_id) values ('RABP234', 'completed', 1062.52, 'P5PL090');
 insert into receives (req_id, req_status, bill, packet_id) values ('RON432', 'denied', 0.0, ' ');
-insert into receives (req_id, req_status, bill, packet_id) values ('RON756', 'completed', 1952.14, 'P5RB599');
+insert into receives (req_id, req_status, bill, packet_id) values ('RON756', 'pending', 0.0, ' ');
 insert into receives (req_id, req_status, bill, packet_id) values ('RBP967', 'completed', 1431.65, 'P4RB029');
 
 
