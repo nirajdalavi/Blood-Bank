@@ -127,16 +127,17 @@ create table if not exists receives(
     foreign key(req_id) references request(req_id) on delete cascade
 );  
 
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON22ABN75', 'Brigida Dwane', 'F', '1986-08-30', 'AB-', '6902132339', '31634 Melody Way');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72BP95', 'Brittney Dmitrichenko', 'M', '1975-03-18', 'B+', '2341093583', '5 1st Alley');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON52ABP55', 'Dallas Bennetts', 'F', '1994-11-12', 'AB+', '3555216529', '2549 Sauthoff Terrace');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12ON55', 'Reuven De''Vere - Hunt', 'F', '1977-09-09', 'O-', '1041830264', '00 Carberry Parkway');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON42BP75', 'Jacky Suttie', 'F', '1998-03-12', 'B+', '2548560680', '69151 Twin Pines Way');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72OP75', 'Yorke Thurner', 'F', '1984-10-07', 'O+', '5746638110', '491 Bobwhite Crossing');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12ABP75', 'Perceval Waterhowse', 'F', '1999-07-14', 'B+', '6822777389', '7 Hoepker Parkway');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON32ABP45', 'Filmer Christene', 'M', '1975-10-14', 'B+', '5206790107', '336 Elmside Park');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '1977-02-05', 'AB+', '5115548614', '1 Lakeland Alley');
-insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '1992-02-21', 'B+', '5169777885', '4 Merchant Alley');
+
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON22ABN75', 'Brigida Dwane', 'F', '1986-08-30', 'AB-', '6902132339', 'Yelwala, Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72BP95', 'Brittney Dmitrichenko', 'M', '1975-03-18', 'B+', '2341093583', 'TK Layout,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON52ABP55', 'Dallas Bennetts', 'F', '1994-11-12', 'AB+', '3555216529', ' Rupanagar,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12ON55', 'Reuven De''Vere - Hunt', 'F', '1977-09-09', 'O-', '1041830264', 'Kuvempunagar,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON42BP75', 'Jacky Suttie', 'F', '1998-03-12', 'B+', '2548560680', 'Metgalli,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72OP75', 'Yorke Thurner', 'F', '1984-10-07', 'O+', '5746638110', 'Devraj Mohalla,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12ABP75', 'Perceval Waterhowse', 'F', '1999-07-14', 'B+', '6822777389', 'Kuvempunagar,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON32ABP45', 'Filmer Christene', 'M', '1975-10-14', 'B+', '5206790107', 'Tilaknagar,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '1977-02-05', 'AB+', '5115548614' , 'Jayalakhmipuram,Mysuru');
+insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '1992-02-21', 'B+', '5169777885', 'Mandi Mohalla,Mysuru');
 
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST2481', 'Gerhard Mottershead', 'Doctor','M', '1987-08-27', 'AB-', '5629881493', '5660 Delladonna Court');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST7389', 'Tally Fearnsides', 'Doctor', 'F', '1974-11-27', 'O+', '5791401782', '15322 Ryan Hill');
@@ -149,16 +150,16 @@ insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, st
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6416', 'Dalton Chiese', 'BloodAnalyst', 'M', '1977-04-24', 'AB-', '5562544008', '05 Coleman Drive');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST6147', 'Margalit Thomkins', 'BloodAnalyst', 'M', '2002-04-24', 'A-', '5416841356', '557 Anhalt Place');
 
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Apollo', '(549) 7007177', '9 Badeau Circle');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Mission Hospital', '(916) 1193148', '104 Donald Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Manipal', '(965) 9775771', '8973 Bartillon Alley');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'KR Hospital', '(883) 2480785', '4649 Pawling Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Narayana Hrudayalaya', '(379) 6971248', '85 Brickson Park Place');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Columbia Asia', '(982) 7562402', '578 Helena Point');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'BM Hospital', '(617) 4669968', '80 Hudson Lane');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'NJ Hospital', '(409) 4988937', '02039 Burrows Road');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Bhanavi Hosiptal', '(180) 3720352', '5 Bellgrove Court');
-insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Kamakshi Hospital', '(821) 7330187', '5 Bonner Alley');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H771', 'Apollo', '(549) 7007177', 'Kuvempunagar, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H887', 'Mission Hospital', '(916) 1193148', 'Mandi Mohalla, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H247', 'Manipal', '(965) 9775771', 'Tilaknagar, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H256', 'KR Hospital', '(883) 2480785', 'Devraj Mohalla, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H546', 'Narayana Hrudayalaya', '(379) 6971248', 'Ring Road near rto testing site, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H807', 'Columbia Asia', '(982) 7562402', 'Metgalli , Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H919', 'BM Hospital', '(617) 4669968', 'Jayalakshmipuram , Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H981', 'NJ Hospital', '(409) 4988937', 'Aloka Road,Yelwala, Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H496', 'Bhanavi Hosiptal', '(180) 3720352', 'Kuvempunagar , Mysuru');
+insert into hospital (hospital_id, hospital_name, hospital_phone, hospital_address) values ('H037', 'Kamakshi Hospital', '(821) 7330187', 'TK Layout , Mysuru');
 
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT1444', 'Austine Worthington', 'M', '2022-10-30', 'AB+', '3304101024', '03796 Hudson Junction');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT6137', 'Hadrian Dumbare', 'F', '2022-05-23', 'AB+', '7265871979', '7762 Summit Trail');
