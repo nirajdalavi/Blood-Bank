@@ -258,18 +258,17 @@ insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416',
 insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3795', 'ST6147', 'POSITIVE');
 
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Plasma', '514');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Plasma', '658');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'O-', 'Platelets', '614');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABN765','H256', 'PAT0319', 'Malaria', 'AB-', 'WholeBlood', '954');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBN235','H247', 'PAT0479', 'Malaria', 'B-', 'Platelets', '766');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON098','H807', 'PAT4437', 'Anaemia', 'O-', 'Plasma', '715');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP089','H981', 'PAT5112', 'Surgery', 'AB+', 'WholeBlood', '419');
-insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RAP654','H496', 'PAT0198', 'Malaria', 'A+', 'RBC', '356');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Platelets', '514');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Platelets', '658');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'O-', 'RBC', '614');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
 
-
+insert into receives (req_id, req_status, bill, packet_id) values ('RABP123', 'completed', 1584.1, 'P6RB705');
+insert into receives (req_id, req_status, bill, packet_id) values ('RABP234', 'completed', 1062.52, 'P5PL090');
+insert into receives (req_id, req_status, bill, packet_id) values ('RON432', 'denied', 0.0, ' ');
+insert into receives (req_id, req_status, bill, packet_id) values ('RON756', 'completed', 1952.14, 'P5RB599');
+insert into receives (req_id, req_status, bill, packet_id) values ('RBP967', 'completed', 1431.65, 'P4RB029');
 
 
 
