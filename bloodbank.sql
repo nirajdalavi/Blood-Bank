@@ -123,7 +123,7 @@ create table if not exists receives(
     req_id varchar(10) not null,
     req_status char(10) not null,
     bill decimal(6,2) not null,
-    packet_id text not null, 
+    packet_id text, 
     foreign key(req_id) references request(req_id) on delete cascade
 );  
 
