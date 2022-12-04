@@ -131,7 +131,7 @@ insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, dono
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON82ABP35', 'Cherin Millwall', 'M', '1977-02-05', 'AB+', '5115548614', '1 Lakeland Alley');
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON12BP55', 'Jaye Whittington', 'M', '1992-02-21', 'B+', '5169777885', '4 Merchant Alley');
 
-insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST2481', 'Gerhard Mottershead', 'Doctor', '1987-08-27', 'AB-', '5629881493', '5660 Delladonna Court');
+insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST2481', 'Gerhard Mottershead', 'Doctor','M', '1987-08-27', 'AB-', '5629881493', '5660 Delladonna Court');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST7389', 'Tally Fearnsides', 'Doctor', 'F', '1974-11-27', 'O+', '5791401782', '15322 Ryan Hill');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST1424', 'Edy Luigi', 'Doctor', 'F', '1996-08-11', 'AB-', '7165755391', '7 Dexter Crossing');
 insert into staff (staff_id, staff_name, staff_role, staff_gender, staff_dob, staff_bg, staff_phone, staff_address) values ('ST8588', 'Hedvige Wippermann', 'Doctor', 'M', '1976-06-09', 'O-', '5657993180', '00131 Tennyson Hill');
