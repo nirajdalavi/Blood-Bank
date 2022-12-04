@@ -107,7 +107,8 @@ create table if not exists tested_by(
     foreign key(sample_id) references blood(sample_id) on delete cascade
 );
 
-create table if not exists req_rec(
+create table if not exists request(
+    req_id varchar(10) not null primary key,
     hospital_id varchar(10) not null,
     patient_id varchar(10) not null,
     patient_case varchar(30) not null,
@@ -118,7 +119,13 @@ create table if not exists req_rec(
     foreign key(patient_id) references patient(patient_id) on delete cascade
 );
 
-show tables;
+create table if not exists receives(
+    req_id varchar(10) not null,
+    req_status char(10) not null,
+    bill decimal(6,2) not null,
+    packet_id text not null, 
+    foreign key(req_id) references request(req_id) on delete cascade
+);  
 
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON22ABN75', 'Brigida Dwane', 'F', '1986-08-30', 'AB-', '6902132339', '31634 Melody Way');
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72BP95', 'Brittney Dmitrichenko', 'M', '1975-03-18', 'B+', '2341093583', '5 1st Alley');
@@ -251,16 +258,16 @@ insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416',
 insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3795', 'ST6147', 'POSITIVE');
 
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H981', 'PAT6137', 'Malaria', 'AB+', 'Plasma', '514');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT9437', 'Malaria', 'O-', 'Plasma', '658');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT5815', 'Anaemia', 'O-', 'Platelets', '614');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H256', 'PAT0319', 'Malaria', 'AB-', 'WholeBlood', '954');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H247', 'PAT0479', 'Malaria', 'B-', 'Platelets', '766');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H807', 'PAT4437', 'Anaemia', 'O-', 'Plasma', '715');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H981', 'PAT5112', 'Surgery', 'AB+', 'WholeBlood', '419');
-insert into req_rec (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('H496', 'PAT0198', 'Malaria', 'A+', 'RBC', '356');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Plasma', '514');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Plasma', '658');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'O-', 'Platelets', '614');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABN765','H256', 'PAT0319', 'Malaria', 'AB-', 'WholeBlood', '954');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBN235','H247', 'PAT0479', 'Malaria', 'B-', 'Platelets', '766');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON098','H807', 'PAT4437', 'Anaemia', 'O-', 'Plasma', '715');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP089','H981', 'PAT5112', 'Surgery', 'AB+', 'WholeBlood', '419');
+insert into request (hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RAP654','H496', 'PAT0198', 'Malaria', 'A+', 'RBC', '356');
 
 
 
