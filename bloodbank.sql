@@ -63,7 +63,7 @@ create table if not exists repository(
 );
 
 create table if not exists Blood_Components(
-    component_type varchar(3) not null;
+    component_type varchar(10) not null,
     blood_id varchar(10) not null,
     packet_id varchar(10) not null primary key,
     ext_date date not null,
