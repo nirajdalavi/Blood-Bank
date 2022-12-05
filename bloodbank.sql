@@ -165,9 +165,9 @@ insert into patient (patient_id, patient_name, patient_gender, patient_dob, pati
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT6137', 'Hadrian Dumbare', 'F', '2022-05-23', 'AB+', '7265871979', '7762 Summit Trail');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT9437', 'Alikee Gerg', 'M', '2022-01-02', 'O-', '2756162197', '555 Sullivan Hill');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5815', 'Gladi Buggs', 'M', '2021-05-03', 'O-', '3307784521', '39217 Amoth Alley');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT2575', 'Andreana Effnert', 'M', '2020-04-13', 'B+', '1402535553', '0 Valley Edge Plaza');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT2575', 'Brigida Dwane', 'F', '1986-08-30', 'AB-', '6902132339', 'Yelwala, Mysuru');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0319', 'Doti Yggo', 'M', '2020-06-16', 'AB-', '6439043521', '3 Dexter Drive');
-insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0479', 'Rutter Fallow', 'F', '2022-08-22', 'B-', '8905745027', '78502 Merry Circle');
+insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0479','Yorke Thurner', 'F', '1984-10-07', 'O+', '5746638110', 'Devraj Mohalla,Mysuru');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT4437', 'Justin Point', 'F', '2020-07-08', 'O-', '7912348106', '28 North Pass');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT5112', 'Rafi Blanking', 'F', '2022-05-15', 'AB+', '1127538147', '14264 Hoard Road');
 insert into patient (patient_id, patient_name, patient_gender, patient_dob, patient_bg, patient_phone, patient_address) values ('PAT0198', 'Moll Thackray', 'M', '2020-05-10', 'A+', '4007469998', '182 Mockingbird Place');
@@ -229,9 +229,9 @@ insert into admits (hospital_id, patient_id, patient_case, admission_date) value
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H981', 'PAT6137', 'Malaria', '2020-03-30');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H807', 'PAT9437', 'Malaria', '2022-07-23');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H247', 'PAT5815', 'Anaemia', '2021-06-05');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H256', 'PAT2575', 'Anaemia', '2018-12-01');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H256', 'PAT2575', 'Accident', '2018-12-01');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H256', 'PAT0319', 'Malaria', '2018-08-02');
-insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H247', 'PAT0479', 'Malaria', '2019-01-28');
+insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H247', 'PAT0479', 'Surgery', '2019-01-28');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H807', 'PAT4437', 'Anaemia', '2019-05-21');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H981', 'PAT5112', 'Surgery', '2022-07-12');
 insert into admits (hospital_id, patient_id, patient_case, admission_date) values ('H496', 'PAT0198', 'Malaria', '2020-09-06');
