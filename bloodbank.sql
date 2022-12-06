@@ -48,7 +48,7 @@ create table if not exists donationcamp(
 create table if not exists participates(
     camp_id varchar(10) not null,
     staff_id varchar(10) not null,
-    foreign key(donor_id) references donor(donor_id) on delete cascade,
+    foreign key(camp_id) references donationcamp(camp_id) on delete cascade,
     foreign key(staff_id) references staff(staff_id) on delete cascade
 );
 
