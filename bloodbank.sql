@@ -45,6 +45,12 @@ create table if not exists donationcamp(
     camp_location text not null,
     camp_organizers text not null
 );
+create table if not exists participates(
+    camp_id varchar(10) not null,
+    staff_id varchar(10) not null,
+    foreign key(donor_id) references donor(donor_id) on delete cascade,
+    foreign key(staff_id) references staff(staff_id) on delete cascade
+);
 
 create table if not exists registration(
     camp_id varchar(10) not null,
@@ -253,7 +259,7 @@ insert into tested_by (sample_id, staff_id, result) values ('SPL2141', 'ST8119',
 insert into tested_by (sample_id, staff_id, result) values ('SPL7553', 'ST6028', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL7380', 'ST6028', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL0835', 'ST7117', 'POSITIVE');
-insert into tested_by (sample_id, staff_id, result) values ('SPL8239', 'ST7117', 'ENGATIVE');
+insert into tested_by (sample_id, staff_id, result) values ('SPL8239', 'ST7117', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL8009', 'ST6416', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
@@ -271,5 +277,13 @@ insert into receives (req_id, req_status, bill, packet_id) values ('RON432', 'de
 insert into receives (req_id, req_status, bill, packet_id) values ('RON756', 'pending', 0.0, ' ');
 insert into receives (req_id, req_status, bill, packet_id) values ('RBP967', 'completed', 1431.65, 'P4RB029');
 
-
+insert into participates (camp_id, staff_id) values ('142020DE','ST1424');
+insert into participates (camp_id, staff_id) values ('752021NO','ST2481');
+insert into participates (camp_id, staff_id) values ('492021DE','ST1424');
+insert into participates (camp_id, staff_id) values ('542021OC','ST8588');
+insert into participates (camp_id, staff_id) values ('842022NO', 'ST8588');
+insert into participates (camp_id, staff_id) values ('092021DE','ST7389');
+insert into participates (camp_id, staff_id) values ('172022SE','ST2481');
+insert into participates (camp_id, staff_id) values ('512020DE','ST7389');
+insert into participates (camp_id, staff_id) values ('902021NO','ST8588');
 
