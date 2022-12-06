@@ -23,7 +23,7 @@ create table if not exists staff(
 );
 
 create table if not exists hospital(
-    hospital_id varchar(12) not null primary key,
+    hospital_id varchar(10) not null primary key,
     hospital_name text not null,
     hospital_phone varchar(15) not null,
     hospital_address text not null
