@@ -279,13 +279,13 @@ insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_t
 insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'B+', 'RBC', '614');
 insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
 
-insert into receives (req_id, req_status, bill, packet_id) values ('RABP123', 'completed', 1584.1);
-insert into receives (req_id, req_status, bill, packet_id) values ('RABP125', 'pending', 0.0);
-insert into receives (req_id, req_status, bill, packet_id) values ('RABP127', 'denied', 0.0);
-insert into receives (req_id, req_status, bill, packet_id) values ('RABP234', 'completed', 1062.52);
-insert into receives (req_id, req_status, bill, packet_id) values ('RON432', 'denied', 0.0);
-insert into receives (req_id, req_status, bill, packet_id) values ('RON756', 'pending', 0.0);
-insert into receives (req_id, req_status, bill, packet_id) values ('RBP967', 'completed', 1431.65);
+insert into receives (req_id, req_status, bill) values ('RABP123', 'completed', 1584.1);
+insert into receives (req_id, req_status, bill) values ('RABP125', 'pending', 0.0);
+insert into receives (req_id, req_status, bill) values ('RABP127', 'denied', 0.0);
+insert into receives (req_id, req_status, bill) values ('RABP234', 'completed', 1062.52);
+insert into receives (req_id, req_status, bill) values ('RON432', 'denied', 0.0);
+insert into receives (req_id, req_status, bill) values ('RON756', 'pending', 0.0);
+insert into receives (req_id, req_status, bill) values ('RBP967', 'completed', 1431.65);
 
 insert into participates (camp_id, staff_id) values ('142020DE','ST1424');
 insert into participates (camp_id, staff_id) values ('752021NO','ST2481');
