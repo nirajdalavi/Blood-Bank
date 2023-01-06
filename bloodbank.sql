@@ -128,11 +128,17 @@ create table if not exists request(
 create table if not exists receives(
     req_id varchar(10) not null,
     req_status char(10) not null,
-    bill decimal(6,2) not null,
-    packet_id text, 
+    bill decimal(6,2) not null, 
     foreign key(req_id) references request(req_id) on delete cascade
 );  
 
+create table if not exists packets(
+    req_id varchar(10) not null,
+    packet_id varchar(10) not null,
+    foreign key(req_id) references request(req_id) on delete cascade,
+    foreign key(packet_id) references Blood_Components(packet_id) on delete cascade
+);    
+    
 
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON22ABN75', 'Brigida Dwane', 'F', '1986-08-30', 'AB-', '6902132339', 'Yelwala, Mysuru');
 insert into donor (donor_id, donor_name, donor_gender, donor_dob, donor_bg, donor_phone, donor_address) values ('DON72BP95', 'Brittney Dmitrichenko', 'M', '1975-03-18', 'B+', '2341093583', 'TK Layout,Mysuru');
