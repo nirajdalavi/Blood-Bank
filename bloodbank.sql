@@ -128,7 +128,7 @@ create table if not exists request(
 create table if not exists receives(
     req_id varchar(10) not null,
     req_status char(10) not null,
-    bill decimal(6,2) not null, 
+    bill integer not null, 
     foreign key(req_id) references request(req_id) on delete cascade
 );  
 
@@ -271,13 +271,13 @@ insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416',
 insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3795', 'ST6147', 'POSITIVE');
 
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '328');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP125','H496', 'PAT1444', 'Dengue', 'AB+', 'Platelets', '528');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP127','H496', 'PAT1444', 'HIV', 'AB+', 'RBC', '828');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Platelets', '514');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Platelets', '658');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'B+', 'RBC', '614');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '995');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '3');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP125','H496', 'PAT1444', 'Dengue', 'AB+', 'Platelets', '5');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP127','H496', 'PAT1444', 'HIV', 'AB+', 'RBC', '4');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Platelets', '1');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Platelets', '6');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'B+', 'RBC', '4');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '2');
 
 insert into receives (req_id, req_status, bill) values ('RABP123', 'completed', 1584.1);
 insert into receives (req_id, req_status, bill) values ('RABP125', 'pending', 0.0);
