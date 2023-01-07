@@ -206,14 +206,14 @@ insert into registration (camp_id, donor_id, reg_date) values ('142020DE', 'DON1
 insert into registration (camp_id, donor_id, reg_date) values ('512020DE', 'DON32ABP45', '2022-09-03');
 insert into registration (camp_id, donor_id, reg_date) values ('752021NO', 'DON12ABP75', '2022-09-22');
 
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ON0001', 'O-', '4.7', '4.0', '0.4');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABP002', 'AB+', '4.8', '0.9', '5.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('OP0003', 'O+', '5.6', '8.3', '1.6');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AP0004', 'A+', '5.9', '7.6', '9.0');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BN0005', 'B-', '9.1', '8.6', '8.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABN006', 'AB-', '9.3', '7.2', '3.4');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '5.2', '1.4', '7.2');
-insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '2.4', '4.9', '3.0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ON0001', 'O-', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABP002', 'AB+', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('OP0003', 'O+', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AP0004', 'A+', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BN0005', 'B-', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('ABN006', 'AB-', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '0', '0', '0');
+insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '0', '0', '0');
 
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ON0001', 'P5RB334', '2022-08-08', '2021-12-21');
 insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ON0001', 'P5PL090', '2022-08-09', '2022-03-21');
