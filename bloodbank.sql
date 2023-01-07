@@ -215,16 +215,37 @@ insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('BP0007', 'B+', '0', '0', '0');
 insert into repository (blood_id, blood_group, RBC, Platelets, Plasma) values ('AN0008', 'A-', '0', '0', '0');
 
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ON0001', 'P5RB334', '2022-08-08', '2021-12-21');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ON0001', 'P5PL090', '2022-08-09', '2022-03-21');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BN0005', 'P6RB705', '2022-03-30', '2022-05-21');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AP0004', 'P6PL299', '2021-12-17', '2022-10-28');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ABN006', 'P5PL485', '2022-09-16', '2022-01-19');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'OP0003', 'P5RB599', '2022-01-07', '2022-04-19');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ABP002', 'P4RB029', '2021-12-30', '2021-12-20');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P6PT637', '2022-08-20', '2022-06-25');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'AN0008', 'P6PL037', '2022-11-07', '2022-03-17');
-insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ON0001', 'P4PT788', '2022-02-18', '2022-01-22');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ABN006', 'P1PT123', '2022-08-08', '2021-12-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ABN006', 'P1PL123', '2022-08-08', '2022-03-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ABN006', 'P1RB123', '2022-08-08', '2022-05-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P2PT124', '2021-12-17', '2022-10-28');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'BP0007', 'P2PL124', '2021-12-17', '2022-01-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BP0007', 'P2RB124', '2021-12-17', '2022-04-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ABP002', 'P3PT456', '2021-12-17', '2021-12-20');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ABP002', 'P3PL456', '2021-12-17', '2022-06-25');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ABP002', 'P3RB456', '2021-12-17', '2022-03-17');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ON0001', 'P4PT765', '2022-02-18', '2022-01-22');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ON0001', 'P4PL765', '2022-02-18', '2021-12-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ON0001', 'P4RB765', '2022-02-18', '2022-03-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P5PT786', '2022-03-30', '2022-05-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'BP0007', 'P5PL786', '2022-03-30', '2022-10-28');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BP0007', 'P5RB786', '2022-03-30', '2022-01-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'OP0003', 'P6PT564', '2022-01-07', '2022-04-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'OP0003', 'P6PL564', '2022-01-07', '2021-12-20');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'OP0003', 'P6RB564', '2022-01-07', '2022-06-25');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P7PT351', '2022-11-07', '2022-03-17');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'BP0007', 'P7PL351', '2022-11-07', '2022-01-22');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BP0007', 'P7RB351', '2022-11-07', '2021-12-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P8PT546', '2022-08-09', '2022-03-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'BP0007', 'P8PL546', '2022-08-09', '2022-05-21');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BP0007', 'P8RB546', '2022-08-09', '2022-10-28');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'ABP002', 'P9PT098', '2022-09-16', '2022-01-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'ABP002', 'P9PL098', '2022-09-16', '2022-04-19');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'ABP002', 'P9RB098', '2022-09-16', '2021-12-20');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Platelets', 'BP0007', 'P0PT908', '2022-08-20', '2022-06-25');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('Plasma', 'BP0007', 'P0PL908', '2022-08-20', '2022-03-17');
+insert into Blood_Components (component_type, blood_id, packet_id, ext_date, exp_date) values ('RBC', 'BP0007', 'P0RB908', '2022-08-20', '2022-01-22');
+
 
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON72BP95', 'ST2481', 'Platelets', 'Emergency', '2022-07-09', '2021-08-09');
 insert into donates (donor_id, staff_id, don_type, don_occasion, don_date, next_date) values ('DON22ABN75', 'ST2481', 'Plasma', 'Normal', '2022-07-16', '2020-04-11');
@@ -271,12 +292,12 @@ insert into tested_by (sample_id, staff_id, result) values ('SPL3175', 'ST6416',
 insert into tested_by (sample_id, staff_id, result) values ('SPL3029', 'ST6147', 'NEGATIVE');
 insert into tested_by (sample_id, staff_id, result) values ('SPL3795', 'ST6147', 'POSITIVE');
 
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '3');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP125','H496', 'PAT1444', 'Dengue', 'AB+', 'Platelets', '5');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP127','H496', 'PAT1444', 'HIV', 'AB+', 'RBC', '4');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP123','H496', 'PAT1444', 'Anaemia', 'AB+', 'RBC', '1');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP125','H496', 'PAT1444', 'Dengue', 'AB+', 'Platelets', '2');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP127','H496', 'PAT1444', 'HIV', 'AB+', 'RBC', '1');
 insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RABP234','H981', 'PAT6137', 'Malaria', 'AB+', 'Platelets', '1');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Platelets', '6');
-insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'B+', 'RBC', '4');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON432','H807', 'PAT9437', 'Malaria', 'O-', 'Platelets', '1');
+insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RON756','H247', 'PAT5815', 'Anaemia', 'B+', 'RBC', '1');
 insert into request (req_id,hospital_id, patient_id, patient_case, req_bg, req_type, qty) values ('RBP967','H256', 'PAT2575', 'Anaemia', 'B+', 'RBC', '2');
 
 insert into receives (req_id, req_status, bill) values ('RABP123', 'completed', 1584.1);
@@ -297,11 +318,11 @@ insert into participates (camp_id, staff_id) values ('172022SE','ST2481');
 insert into participates (camp_id, staff_id) values ('512020DE','ST7389');
 insert into participates (camp_id, staff_id) values ('902021NO','ST8588');
 
-insert into packets (req_id, packet_id) values ('RABP123','P4RB029');
-insert into packets (req_id, packet_id) values ('RABP234','P6PL299');
-insert into packets (req_id, packet_id) values ('RBP967','P6PT637');
-insert into packets (req_id, packet_id) values ('RBP967','P5RB599');
-
+insert into packets (req_id, packet_id) values ('RABP123','P9RB098');
+insert into packets (req_id, packet_id) values ('RABP234','P9PT098');
+insert into packets (req_id, packet_id) values ('RBP967','P0RB908');
+insert into packets (req_id, packet_id) values ('RBP967','P8RB546');
+insert into packets (req_id, packet_id) values ('RBP967','P2RB124');
 
 
 
