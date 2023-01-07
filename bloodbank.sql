@@ -135,8 +135,7 @@ create table if not exists receives(
 create table if not exists packets(
     req_id varchar(10) not null,
     packet_id varchar(10) not null,
-    foreign key(req_id) references request(req_id) on delete cascade,
-    foreign key(packet_id) references Blood_Components(packet_id) on delete cascade
+    foreign key(req_id) references request(req_id) on delete cascade
 );    
     
 
